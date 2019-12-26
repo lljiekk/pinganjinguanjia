@@ -2,6 +2,7 @@ public class User {
 
     private String username="lianjie";
     private String test="lianjieddd";
+    private String test2="lianjieddd222";
     public static void test2(){
         System.out.println("tt222");
     }
@@ -10,6 +11,7 @@ public class User {
     }
 
     public String getTest() {
+        System.out.println("dddttttt");
         return test;
     }
 }
